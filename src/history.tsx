@@ -1,5 +1,5 @@
 import React from 'react';
-import {Provider} from 'treble-gsm';
+import Provider from './provider';
 import buildHistoryReducer from './reducer';
 import HistoryContext from './context';
 import buildHistory from './state';
